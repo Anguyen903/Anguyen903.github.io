@@ -26,6 +26,15 @@
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
+/*
+createCannon(type, position, delay);
+
+type: The type of cannon to be made. This can be one of the following Strings: "top", "bottom", "left", or "right"
+position: The position coordinate for the cannon along the wall it is placed.
+delay: OPTIONAL The number of milliseconds to wait before firing the first projectile
+
+*/
+
         // example: 
         createCannon("top", 450);
 
