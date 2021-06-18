@@ -20,52 +20,14 @@ var init = function (window) {
         ////////////////////////////////////////////////////////////
         
         // TODO 1 : Declare and initialize our variables
-        game.checkCirclePosition = function(circle){
-            if(circle.x > canvas.width){
-                circle.x = 0;
-            }
-        }
-        var circle;			// variable to hold a single circle when creating circles / iterating
-        var circles = [100];	// variable to store all circles in one Array
+
 
         // TODO 2 : Create a function that draws a circle 
-        game.checkCirclePosition = function(circle){
-            if (circle.x > canvas.width){
-                circle.x = 0;
-            }
-        }
-        drawCircle
-        // Code to draw a circle
-        circle = draw.randomCircleInArea(canvas, true, true, '#999', 2);
-        physikz.addRandomVelocity(circle, canvas);
-        view.addChild(circle);
-        circles.push(circle); 
-
-        function nameOfFunction(parameters) { 
-
-        }
+        
 
         // TODO 3 / 8 : Call the drawCircle() function 
-        game.checkCirclePosition = function(circle){
-            if ( circle.x > canvas.width ){
-                circle.x = 0;
-            }
-        }
-
-drawCircle(100);
-
-var loopsCompleted = 0; 
-while (loopsCompleted < 10) {
-    // do something
-    loopsCompleted++
-}
-
-for (var loopsCompleted = 0; loopsCompleted < 10; loopsCompleted++) {
-    // do something
-}
 
 
-nameOfFunction(5);
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
@@ -77,34 +39,15 @@ nameOfFunction(5);
         */
         function update() {
             // TODO 4 : Update the circle's position //
-            game.checkCirclePosition = function(circle){
-                if ( circle.x > canvas.width){
-                    circle.x = 0;
-                }
-            }
-         
-        functionCallsHadToBeDeletedBecauseItIsRequired
-            myArray[0] //--> returns the first value in myArray
-            myArray[1] //--> returns the second value in myArray
+
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-            game.checkCirclePosition = function(circle){
-                if (circle.x > canvas.width){
-                    circle.x = 0;
-                }
-            }
-            
-            functionCallsHadToBeDeletedBecauseItIsRequired
+           
+
             // TODO 9 : Iterate over the array
-           game.checkCirclePosition = function(circle){
-               if (circle.x > canvas.width){
-                   circle.x = 0;
-               }
-           }
+           
             
         }
-
-        game.checkCirclePosition(eachCircle) 
     
         /* 
         This Function should check the position of a circle that is passed to the 
@@ -119,10 +62,8 @@ nameOfFunction(5);
             }
             
             // TODO 7 : YOUR CODE STARTS HERE //////////////////////
-            game.checkCirclePosition()
-            if (circle.x > canvas.width) {
-                circle.x = 0;
-            }
+            
+
 
             // YOUR TODO 7 CODE ENDS HERE //////////////////////////
         }
@@ -141,11 +82,11 @@ nameOfFunction(5);
         
         app.addUpdateable(window.opspark.game);
     }
-
+};
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if((typeof process !== 'undefined') &&
     (typeof process.versions.node !== 'undefined')) {
     // here, export any references you need for tests //
     module.exports = init;
-    }
+}
