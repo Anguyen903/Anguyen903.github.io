@@ -38,7 +38,7 @@ delay: OPTIONAL The number of milliseconds to wait before firing the first proje
         // example: 
         createCannon("top", 450);
 
-        creatCannon("top", 450);
+        createCannon("right", 450);
         createCannon("left", 300, 1000);
         
         

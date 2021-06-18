@@ -48,7 +48,8 @@ bounce: OPTIONAL A factor effecting how much the collectable will bounce off pla
     
         // example: 
         createCollectable(type.steve, 200, 170, 6, 0.7);
-        
+        createCollectable(type.db, 200, 170, 6, 0.7);
+        createCollectable(type.max, 200, 170, 6, 0.7);
         type.db
         type.max
         type.steve
