@@ -34,11 +34,9 @@ var init = function (window) {
         // TODO 3 / 8 : Call the drawCircle() function 
 
 
-drawCircle(); 
-drawCircle();
-drawCircle();
-drawCircle();
-drawCircle();
+        for (var loopsCompleted = 0; loopsCompleted < 10; loopsCompleted++) {
+            drawCircle()
+        }
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
@@ -67,7 +65,11 @@ drawCircle();
             game.checkCirclePosition(circles[4]);
 
             // TODO 9 : Iterate over the array
-           
+            for (var i = 0; i < mycircle.length; i++) {
+                var eachValue = mycircle[i];
+                
+                var eachValue = mycircle[i];
+            }
             
         }
     
