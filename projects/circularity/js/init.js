@@ -20,8 +20,8 @@ var init = function (window) {
         ////////////////////////////////////////////////////////////
         
         // TODO 1 : Declare and initialize our variables
-        var circle;			// variable to hold a single circle when creating circles / iterating
-        var circles = [];	// variable to store all circles in one Array
+        eachcircle;			// variable to hold a single circle when creating circles / iterating
+        eachcircles = [];	// variable to store all circles in one Array
 
         // TODO 2 : Create a function that draws a circle 
         function drawCircle(){circle = draw.randomCircleInArea(canvas, true, true, '#999', 2);
@@ -65,10 +65,10 @@ var init = function (window) {
             game.checkCirclePosition(circles[4]);
 
             // TODO 9 : Iterate over the array
-            for (var i = 0; i < mycircle.length; i++) {
-                var eachValue = mycircle[i];
+            for ( i = 0; i < circle.length; i++) {
+                eachCircle = [i];
                 
-                var eachValue = mycircle[i];
+                eachCircle = [i];
             }
             
         }
